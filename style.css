@@ -448,3 +448,41 @@ width: 45%;
     line-height: 1.5;
     margin-top: 10px;
 }
+
+#hamburger-menu{
+    display:none;
+    position: absolute;
+    right: 10%;
+}
+@media (max-width:1050px) {
+    .timeline-divider{
+        left: 4%;
+    }
+    .timeline-box{
+        left:12% !important;
+        width: 60%;
+        margin-bottom: 10px;
+
+    }
+    .timeline-box:after{
+        left:-17% !important;
+    }
+}
+
+@media (max-width:550px) {
+    #container{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        
+        align-items: center;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #hamburger-menu{
+        display: flex;
+    }
+
+    
+}
